@@ -1,6 +1,6 @@
 
 
-document.addEventListener("DOMContentLoaded", async () => {
+const summaryData = async () => {
     const summary = document.getElementById('summary')
 
     try{
@@ -40,5 +40,6 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     
     
-});
+};
 
+summaryData();
