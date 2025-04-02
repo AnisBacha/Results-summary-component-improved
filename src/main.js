@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         }
         
 
-        const response = await fetch("../data.json");
+        const response = await fetch("./data.json");
         const data = await response.json(); // Convert response to JSON
         console.log("Fetched Data:", data); // Debugging check
 
