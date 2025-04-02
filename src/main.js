@@ -34,9 +34,10 @@ document.addEventListener("DOMContentLoaded", async () => {
             createItem(summary, item) 
             
          });
-    } catch{
-
+    } catch (error) {
+        console.error("Error fetching JSON:", error);
     }
+
 
     
     

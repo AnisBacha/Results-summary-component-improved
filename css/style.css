@@ -112,7 +112,7 @@ body{
 
 @media screen and (min-width: 1024px) {
     body{
-        background-color: hsl(225, 4%, 60%);
+        background-color: hsl(221, 100%, 96%);
         min-height: 100vh;
         display: flex;
         align-items: center;
