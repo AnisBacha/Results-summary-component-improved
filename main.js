@@ -12,7 +12,7 @@ const summaryData = async () => {
             const categorySpan = document.createElement("div");
             categorySpan.style.display= 'flex';
             
-            categorySpan.innerHTML = `<img class='icon' src=".${item.icon}" alt="icon"> <p class='category'> ${item.category} </p>`;
+            categorySpan.innerHTML = `<img class='icon' src="${item.icon}" alt="icon"> <p class='category'> ${item.category} </p>`;
             categorySpan.querySelector(".category").style.color = item.color;
 
 
