@@ -70,7 +70,7 @@ body{
     margin-inline: 1rem;
     padding-inline: 1rem;
     padding-block: 1rem;
-    background-color: hsl(221, 100%, 96%);
+    background-color: hsla(222, 100%, 96%, 0.664);
 
     display: flex;
     align-items: center;
@@ -97,7 +97,7 @@ body{
     font-size: 1.125rem;
     font-weight: 600;
     color: hsl(221, 100%, 96%);
-    width: 80%;
+    width: 90%;
     padding: 1rem;
     margin-block:  2rem;
     border: 0;
@@ -124,11 +124,11 @@ body{
     }
     .main__result-card{
         border-radius: 30px;
-        max-width: 360px;
+        max-width: 400px;
         max-height: 500px;
     }
     .main__summary-card{
-        max-width: 360px;
+        max-width: 400px;
         max-height: 500px;
         border-radius: 0 30px 30px 0;
 
@@ -145,6 +145,10 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .main__remark{
+        font-size: 2rem;
+        margin-block-end: 0;
     }
     .main__h2{
         font-size: 1.5rem;
